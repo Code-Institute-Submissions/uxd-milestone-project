@@ -7,3 +7,16 @@ body {
 h1 {
     font-family: 'Roboto Slab', sans-serif;
 }
+
+nav {
+    height: 15vh;
+    background-color: #3e7180;
+}
+
+footer {
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #657a80;
+    padding-top: 1rem;
+    color: #C9F3FF;
+}
