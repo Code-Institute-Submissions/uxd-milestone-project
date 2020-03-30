@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto+Slab:wght@300;400;700&display=swap');
 
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -8,15 +9,31 @@ h1 {
     font-family: 'Roboto Slab', sans-serif;
 }
 
-nav {
-    height: 15vh;
-    background-color: #3e7180;
+section {
+    padding: 1rem;
 }
 
+/*------------------------------- Nav -------------------------------*/
+
+nav {
+    min-height: 120px;
+    background-color: #3e7180;
+    padding: 10px, 20px;
+}
+
+
+/*------------------------------- Footer -------------------------------*/
+
 footer {
-    margin-top: 1rem;
+    height: 15vh;
     text-align: center;
     background-color: #657a80;
     padding-top: 1rem;
     color: #C9F3FF;
+    font-size: 1rem;
+}
+
+.social-links i {
+    color: #C9F3FF;
+    line-height: 2rem;
 }
