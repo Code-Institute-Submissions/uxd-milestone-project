@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto+Slab:wght@300;400;700&display=swap');
 
+/*------------------------ General Fonts / Colours ---------------------------*/
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -13,16 +14,15 @@ section {
     padding: 1rem;
 }
 
-/*------------------------------- Nav -------------------------------*/
-
 nav {
-    min-height: 120px;
+    height: 15vh;
     background-color: #3e7180;
-    padding: 10px, 20px;
+    position: relative;
 }
 
-
-/*------------------------------- Footer -------------------------------*/
+header {
+    padding-top: 0px;
+}
 
 footer {
     height: 15vh;
@@ -30,10 +30,22 @@ footer {
     background-color: #657a80;
     padding-top: 1rem;
     color: #C9F3FF;
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 
 .social-links i {
     color: #C9F3FF;
-    line-height: 2rem;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+/*------------------------------- Hero Image -------------------------------*/
+
+.hero-image {
+    height: 70vh;
+    background: url(../images/band_image.jpg) no-repeat top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
