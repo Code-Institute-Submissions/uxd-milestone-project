@@ -10,6 +10,11 @@ h1 {
     font-family: 'Roboto Slab', sans-serif;
 }
 
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 section {
     padding: 1rem;
 }
@@ -30,16 +35,21 @@ footer {
     background-color: #657a80;
     align-items: center;
     color: #C9F3FF;
-    padding: 30px;
+    padding: 1rem;
 }
 
 .social-links i {
     color: #C9F3FF;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
-/*------------------------------- Hero Image -------------------------------*/
+.legal-bits {
+    font-size: 0.6rem;
+}
+
+/*-------------------------- Hero Image / Jumbotron--------------------------*/
 
 .hero-image {
     height: 70vh;
@@ -62,11 +72,29 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Converted hex footer bg-color to rgba for .jumbotron bg-color using hexcolortool.com */
+
 .jumbotron {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(101, 123, 129, 0.50);
     margin: 0px;
-    color: #ffffff;
+    color: #fff;
     box-sizing: border-box;
     text-align: center;
+}
+
+.jumbotron-btn {
+    border-radius: 0.2rem;
+    color: #3e7180;
+    background-color: #7de3ff;
+    border: solid 1px #64b5cc;
+    font-weight: bold;
+}
+
+.jumbotron-btn:hover {
+    border-radius: 0.2rem;
+    color: #7de3ff;
+    background-color: #3e7180;
+    border: solid 1px #64b5cc;
+    font-weight: bold;
 }
