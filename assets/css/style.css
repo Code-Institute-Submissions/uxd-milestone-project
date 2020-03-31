@@ -28,14 +28,14 @@ footer {
     height: 15vh;
     text-align: center;
     background-color: #657a80;
-    padding-top: 1rem;
+    align-items: center;
     color: #C9F3FF;
-    font-size: 0.5rem;
+    padding: 30px;
 }
 
 .social-links i {
     color: #C9F3FF;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-right: 10px;
 }
 
@@ -48,4 +48,25 @@ footer {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    height: 70vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+    color: #ffffff;
+    box-sizing: border-box;
+    text-align: center;
 }
