@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Roboto+Slab:wght@300;400;700&display=swap');
 
-/*------------------------ General Fonts / Colours ---------------------------*/
+/*------------------------ General ---------------------------*/
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Roboto Slab', sans-serif;
 }
 
@@ -20,7 +20,7 @@ section {
 }
 
 nav {
-    height: 15vh;
+    height: 10vh;
     background-color: #3e7180;
     position: relative;
 }
@@ -29,30 +29,36 @@ header {
     padding-top: 0px;
 }
 
+
 footer {
+    box-sizing: border-box;
     height: 15vh;
     text-align: center;
     background-color: #657a80;
     align-items: center;
     color: #C9F3FF;
-    padding: 1rem;
 }
 
 .social-links i {
     color: #C9F3FF;
     font-size: 1.2rem;
     margin-right: 10px;
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .legal-bits {
     font-size: 0.6rem;
+    line-height: 1.2rem;
+}
+
+.legal-bits p {
+    margin: 0;
 }
 
 /*-------------------------- Hero Image / Jumbotron--------------------------*/
 
 .hero-image {
-    height: 70vh;
+    height: 80vh;
     background: url(../images/band_image.jpg) no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -65,9 +71,9 @@ footer {
 
 .opaque-overlay {
     position: absolute;
-    top: 15vh;
+    top: 10vh;
     left: 0;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
