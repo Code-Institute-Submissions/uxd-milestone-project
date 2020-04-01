@@ -25,6 +25,11 @@ nav {
     position: relative;
 }
 
+.navbar-collapse {
+    background-color: #3e7180;
+    z-index: 1;
+}
+
 header {
     padding-top: 0px;
 }
@@ -103,4 +108,14 @@ footer {
     background-color: #3e7180;
     border: solid 1px #64b5cc;
     font-weight: bold;
+}
+
+/*-------------------------- Gigs Table --------------------------*/
+
+.gigs-table {
+    padding-top: 1rem;
+}
+
+.more-info-row-gigs td {
+    padding: 0;
 }
