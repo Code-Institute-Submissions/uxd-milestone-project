@@ -114,6 +114,12 @@ footer {
 
 .gigs-table {
     padding-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+.gigs-table a {
+ color: #212529;
 }
 
 .more-info-row-gigs td {
