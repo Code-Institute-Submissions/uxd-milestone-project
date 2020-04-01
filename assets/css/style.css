@@ -125,3 +125,13 @@ footer {
 .more-info-row-gigs td {
     padding: 0;
 }
+
+/*-------------------------- About Page --------------------------*/
+
+.band-member-info {
+    border: none;
+}
+
+.card-title {
+    margin-top: .75rem;
+}
