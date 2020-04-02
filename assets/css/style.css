@@ -83,7 +83,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Converted hex footer bg-color to rgba for .jumbotron bg-color using hexcolortool.com */
+/* Converted hex footer bg-color to rgba for 
+.jumbotron bg-color using hexcolortool.com */
 
 .jumbotron {
     position: relative;
@@ -126,7 +127,7 @@ footer {
     padding: 0;
 }
 
-/*-------------------------- About Page --------------------------*/
+/*-------------------------- About --------------------------*/
 
 .band-member-info {
     border: none;
@@ -134,4 +135,15 @@ footer {
 
 .card-title {
     margin-top: .75rem;
+}
+
+/*-------------------------- Gallery --------------------------*/
+
+.band-image {
+    padding-bottom: 1rem;
+}
+
+.band-image img {
+    max-width: 100%;
+    height: auto;
 }
