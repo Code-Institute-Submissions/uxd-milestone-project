@@ -160,3 +160,21 @@ input, label, textarea, button.btn {
 
 /*-------------------------- Cotact --------------------------*/
 
+.contact-form {
+    position: relative;
+    max-width: 720px;
+    background-color: rgba(101, 123, 129, 0.50);
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+.contact-bg {
+    background: url(../images/band_image.jpg) no-repeat top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
