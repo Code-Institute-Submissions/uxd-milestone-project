@@ -74,7 +74,7 @@ input, label, textarea, button.btn {
 
 .hero-image {
     height: 80vh;
-    background: url(../images/band_image.jpg) no-repeat top left;
+    background: url(../images/hero-image.jpg) no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -84,7 +84,7 @@ input, label, textarea, button.btn {
     justify-content: center;
 }
 
-.opaque-overlay {
+.opaque-overlay-home {
     position: absolute;
     top: 10vh;
     left: 0;
@@ -119,6 +119,10 @@ input, label, textarea, button.btn {
 
 .band-intro {
     min-height: auto;
+}
+.band-intro a {
+    color: #212529;
+    text-decoration: underline;
 }
 
 /*-------------------------- Gigs Table --------------------------*/
@@ -161,6 +165,7 @@ input, label, textarea, button.btn {
 /*-------------------------- Cotact --------------------------*/
 
 .contact-form {
+
     position: relative;
     max-width: 720px;
     background-color: rgba(101, 123, 129, 0.50);
@@ -169,12 +174,22 @@ input, label, textarea, button.btn {
 }
 
 .contact-bg {
-    background: url(../images/band_image.jpg) no-repeat top left;
+    height: auto;
+    background: url(../images/contact-bg.jpg) no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: center;
+}
+
+.opaque-overlay-contact {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
