@@ -2,7 +2,7 @@
 # Five Chambers Full Band Site
 
 This project was created as part of my first Milestone project with the Code Institute. It is a static front-end site designed to raise awareness of a local covers band, promote upcoming gigs and boost their fan base.
-I chose to base my project on Five Chambers Full as I wanted to gain experience interacting with clients as a Developer. The client are a local covers band that play Rock'n'Roll covers for people of all ages.
+I chose to base my project on Five Chambers Full as I wanted to gain experience interacting with clients as a Developer. The client is a local covers band that play Rock'n'Roll covers for people of all ages.
 
 ## UX
 
@@ -32,7 +32,7 @@ to create the [colour palette](https://drive.google.com/file/d/1hGC-_FSpgQxzIq6p
 
 ### User Stories:
 
-Below are a list of the users stories throughtout the project.
+Below are a list of the users stories throughout the project.
 
 * As a user, I want a gigs list, so I can find out when and where the band are playing next.
 * As a user I want to find the bands social media pages so that I can keep up to date with the latest news about the band.
